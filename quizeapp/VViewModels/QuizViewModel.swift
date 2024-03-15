@@ -26,7 +26,6 @@ class QuizViewModel: ObservableObject {
                 case .success(let questions):
                     self.questions = questions
                 case .failure(let error):
-                    // Handle error
                     print("Failed to fetch questions: \(error)")
                 }
             }

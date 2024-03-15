@@ -11,24 +11,24 @@ protocol QuestionsRepository {
     func fetchQuestions(completion: @escaping (Result<[Question], Error>) -> Void)
 }
 
-import Foundation
-
-// Define a concrete implementation of the QuestionsRepository protocol
 class QuestionsRepositoryImpl: QuestionsRepository {
-    // Implement the fetchQuestions method
+    
     func fetchQuestions(completion: @escaping (Result<[Question], Error>) -> Void) {
-        // Simulated asynchronous fetching of questions
-        DispatchQueue.global().async {
-            // Simulate fetching questions from a remote server or a database
-            let questions = [
-                Question(text: "What is the capital of France?", options: ["London", "Paris", "Berlin", "Madrid"], correctAnswerIndices: [1]),
-                Question(text: "Which of the following is a mammal?", options: ["Fish", "Bird", "Dog", "Snake"], correctAnswerIndices: [2]),
-                Question(text: "Which planet is known as the Red Planet?", options: ["Mars", "Venus", "Jupiter", "Mercury"], correctAnswerIndices: [0])
-                // Add more questions as needed
-            ]
-            
-            // Call the completion handler with the fetched questions
-            completion(.success(questions))
+        guard let url = Bundle.main.url(forResource: "questions", withExtension: "json") else {
+            completion(.failure(NSError(domain: "App", code: 404, userInfo: [NSLocalizedDescriptionKey: "questions.json not found"])))
+            return
+        }
+        do {
+            let data = try Data(contentsOf: url)
+            let decoder = JSONDecoder()
+            let questions = try decoder.decode([Question].self, from: data)
+            let shuffledQuestions = questions.shuffled()
+            let selectedQuestions = Array(shuffledQuestions.prefix(10))
+            completion(.success(selectedQuestions))
+        } catch {
+            completion(.failure(error))
         }
     }
 }
+
+
