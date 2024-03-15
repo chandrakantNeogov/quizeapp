@@ -73,8 +73,7 @@ struct QuizView: View {
     
     private func handleNextOrSubmit() {
            if viewModel.currentQuestionIndex == viewModel.questions.count - 1 {
-               // Submit quiz or show result
-               viewModel.navigateToNextQuestion() // This will calculate the result message and update resultMessage
+               viewModel.navigateToNextQuestion()
                isShowingResultDialog = true
            } else {
                viewModel.navigateToNextQuestion()

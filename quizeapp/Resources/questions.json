@@ -1,0 +1,248 @@
+[
+  {
+    "text": "What is the capital of France?",
+    "options": ["London", "Paris", "Berlin", "Rome"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "Which planet is known as the Red Planet?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "What is the chemical symbol for water?",
+    "options": ["H2O", "CO2", "NaCl", "O2"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Who wrote 'To Kill a Mockingbird'?",
+    "options": ["Harper Lee", "J.K. Rowling", "Stephen King", "Charles Dickens"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Which language is most widely spoken in Brazil?",
+    "options": ["Spanish", "Portuguese", "English", "French"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "What is the tallest mammal?",
+    "options": ["Elephant", "Giraffe", "Hippopotamus", "Rhinoceros"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "What is the chemical symbol for gold?",
+    "options": ["Au", "Ag", "Fe", "Cu"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the currency of Japan?",
+    "options": ["Dollar", "Yen", "Euro", "Pound"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "Who painted the Mona Lisa?",
+    "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the boiling point of water in Celsius?",
+    "options": ["0°C", "100°C", "-100°C", "50°C"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "Which gas is most abundant in the Earth's atmosphere?",
+    "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Argon"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Who is credited with discovering penicillin?",
+    "options": ["Alexander Fleming", "Marie Curie", "Albert Einstein", "Isaac Newton"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "correctAnswerIndices": [3]
+  },
+  {
+    "text": "What is the chemical symbol for iron?",
+    "options": ["Fe", "Au", "Ag", "Cu"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Who was the first person to step on the moon?",
+    "options": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Japan", "India", "Korea"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "What is the chemical symbol for silver?",
+    "options": ["Ag", "Au", "Fe", "Cu"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Who wrote '1984'?",
+    "options": ["George Orwell", "J.R.R. Tolkien", "F. Scott Fitzgerald", "Ernest Hemingway"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Which planet is known as the 'Morning Star'?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the largest organ in the human body?",
+    "options": ["Liver", "Lung", "Skin", "Heart"],
+    "correctAnswerIndices": [2]
+  },
+  {
+    "text": "Who is the author of 'Harry Potter' series?",
+    "options": ["J.K. Rowling", "Stephen King", "George R.R. Martin", "J.R.R. Tolkien"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the chemical symbol for sodium?",
+    "options": ["Na", "Nb", "Ni", "No"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "correctAnswerIndices": [2]
+  },
+  {
+    "text": "Who discovered gravity?",
+    "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the chemical symbol for carbon?",
+    "options": ["C", "Co", "Cr", "Ca"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Which planet is closest to the Sun?",
+    "options": ["Earth", "Mars", "Venus", "Mercury"],
+    "correctAnswerIndices": [3]
+  },
+  {
+    "text": "Who composed the 'Moonlight Sonata'?",
+    "options": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Johannes Brahms"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the largest country in the world by land area?",
+    "options": ["Russia", "Canada", "China", "United States"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Which is the tallest mountain in the world?",
+    "options": ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "Who invented the telephone?",
+    "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Albert Einstein"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the chemical symbol for helium?",
+    "options": ["He", "H", "Ha", "Ho"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Which is the largest desert in the world?",
+    "options": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Antarctica"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Who painted 'Starry Night'?",
+    "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the chemical symbol for potassium?",
+    "options": ["K", "Kt", "Kp", "Km"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the capital of India?",
+    "options": ["Mumbai", "Delhi", "Bangalore", "Kolkata"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "Who was the first woman to win a Nobel Prize?",
+    "options": ["Marie Curie", "Rosalind Franklin", "Dorothy Crowfoot Hodgkin", "Ada Lovelace"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the chemical symbol for lead?",
+    "options": ["Pb", "Pl", "Pd", "Pr"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Who wrote 'The Great Gatsby'?",
+    "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "J.D. Salinger", "John Steinbeck"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the chemical symbol for mercury?",
+    "options": ["Hg", "He", "H", "Ho"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Which is the smallest bone in the human body?",
+    "options": ["Femur", "Stapes", "Tibia", "Fibula"],
+    "correctAnswerIndices": [1]
+  },
+  {
+    "text": "Who is known as the Father of Geometry?",
+    "options": ["Euclid", "Pythagoras", "Archimedes", "Socrates"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the chemical symbol for nitrogen?",
+    "options": ["N", "Ni", "Na", "No"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Who was the first President of the United States?",
+    "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the chemical symbol for oxygen?",
+    "options": ["O", "Ox", "Oy", "Om"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Which is the smallest planet in our solar system?",
+    "options": ["Mercury", "Venus", "Earth", "Mars"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Who discovered America?",
+    "options": ["Christopher Columbus", "Marco Polo", "Amerigo Vespucci", "Vasco da Gama"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the chemical symbol for uranium?",
+    "options": ["U", "Ur", "Um", "Up"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "Who was the first woman to fly solo across the Atlantic Ocean?",
+    "options": ["Amelia Earhart", "Bessie Coleman", "Harriet Quimby", "Jacqueline Cochran"],
+    "correctAnswerIndices": [0]
+  },
+  {
+    "text": "What is the chemical symbol for zinc?",
+    "options": ["Zn", "Zi", "Zc", "Zk"],
+    "correctAnswerIndices": [0]
+  }
+]
+

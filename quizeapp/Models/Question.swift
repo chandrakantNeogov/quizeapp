@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct Question {
+struct Question : Codable {
     let text: String
     let options: [String]
     let correctAnswerIndices: Set<Int>
